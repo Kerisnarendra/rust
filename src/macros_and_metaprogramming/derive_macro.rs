@@ -1,7 +1,8 @@
 extern crate proc_macro;
-use proc_macro::make_answer;
+use proc_macro::AnswerFn;
 
-make_answer!();
+#[derive(AnswerFn)]
+struct Struct;
 
 fn main() {
     println!("{}", answer());

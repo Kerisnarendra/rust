@@ -87,3 +87,11 @@ path = "src/macros_and_metaprogramming/function_like_procedural_macro.rs"
 
 [dependencies]
 proc_macro = { path = "src/macros_and_metaprogramming/proc_macro" }
+
+[[bin]]
+name = "derive_macro"
+path = "src/macros_and_metaprogramming/derive_macro.rs"
+
+[[bin]]
+name = "attribute_macro"
+path = "src/macros_and_metaprogramming/attribute_macro.rs"

@@ -26,3 +26,5 @@ cargo run --bin function_macro
 cargo run --bin expression_macro
 
 cargo run --bin function_like_procedural_macro
+cargo run --bin derive_macro
+cargo run --bin attribute_macro
