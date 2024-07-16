@@ -1,0 +1,28 @@
+cargo run --bin ownership_system_single 
+
+cargo run --bin syntax_and_semantics_closure_basic
+cargo run --bin syntax_and_semantics_closure_capturing_variables_and_parameters
+cargo run --bin syntax_and_semantics_closure_chain
+cargo run --bin syntax_and_semantics_closure_move
+cargo run --bin syntax_and_semantics_closure_fn
+cargo run --bin syntax_and_semantics_closure_fn_mut
+cargo run --bin syntax_and_semantics_closure_fn_once
+
+cargo run --bin mutex
+
+cargo run --bin data_structures_arc
+cargo run --bin data_structures_arc_threads
+cargo run --bin data_structures_mutex
+
+cargo run --bin threads
+cargo run --bin channels_sending_and_receiving
+cargo run --bin channels_non_blocking_alternatives
+
+cargo run --bin memory_ordering_relaxed_ordering
+
+cargo run --bin simple_declarative_macro
+cargo run --bin parameterized_declarative_macro
+cargo run --bin function_macro
+cargo run --bin expression_macro
+
+cargo run --bin function_like_procedural_macro_invocation 

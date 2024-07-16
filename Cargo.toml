@@ -1,0 +1,93 @@
+# workspace = { members = ["src/proc_macro_examples"] }
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "ownership_system_single"
+path = "src/language_basics/ownership_system/single_ownership.rs"
+
+[[bin]]
+name = "syntax_and_semantics_closure_basic"
+path = "src/language_basics/syntax_and_semantics/closures/closure_basic.rs"
+
+[[bin]]
+name = "syntax_and_semantics_closure_capturing_variables_and_parameters"
+path = "src/language_basics/syntax_and_semantics/closures/closure_capturing_variables_and_parameters.rs"
+
+[[bin]]
+name = "syntax_and_semantics_closure_chain"
+path = "src/language_basics/syntax_and_semantics/closures/closure_chain.rs"
+
+[[bin]]
+name = "syntax_and_semantics_closure_move"
+path = "src/language_basics/syntax_and_semantics/closures/closure_move.rs"
+
+[[bin]]
+name = "syntax_and_semantics_closure_fn"
+path = "src/language_basics/syntax_and_semantics/closures/closure_fn.rs"
+
+[[bin]]
+name = "syntax_and_semantics_closure_fn_mut"
+path = "src/language_basics/syntax_and_semantics/closures/closure_fn_mut.rs"
+
+# [[bin]]
+# name = "syntax_and_semantics_closure_fn_once"
+# path = "src/language_basics/syntax_and_semantics/closures/closure_fn_once.rs"
+
+[[bin]]
+name = "mutex"
+path = "src/language_basics/data_structures_advanced/mutex.rs"
+
+[[bin]]
+name = "data_structures_arc"
+path = "src/language_basics/data_structures/arc/arc.rs"
+
+[[bin]]
+name = "data_structures_arc_threads"
+path = "src/language_basics/data_structures/arc/arc_threads.rs"
+
+[[bin]]
+name = "data_structures_mutex"
+path = "src/language_basics/data_structures/mutex.rs"
+
+[[bin]]
+name = "threads"
+path = "src/concurrency_and_parallelism/threads_and_channels/threads/threads.rs"
+
+[[bin]]
+name = "channels_sending_and_receiving"
+path = "src/concurrency_and_parallelism/threads_and_channels/threads/channels/sending_and_receiving.rs"
+
+[[bin]]
+name = "channels_non_blocking_alternatives"
+path = "src/concurrency_and_parallelism/threads_and_channels/threads/channels/non_blocking_alternatives.rs"
+
+[[bin]]
+name = "memory_ordering_relaxed_ordering"
+path = "src/concurrency_and_parallelism/atomic_operations/memory_ordering/relaxed_ordering.rs"
+
+[[bin]]
+name = "simple_declarative_macro"
+path = "src/macros_and_metaprogramming/simple_declarative_macro.rs"
+
+[[bin]]
+name = "parameterized_declarative_macro"
+path = "src/macros_and_metaprogramming/parameterized_declarative_macro.rs"
+
+[[bin]]
+name = "function_macro"
+path = "src/macros_and_metaprogramming/function_macro.rs"
+
+# [lib]
+# proc-macro = true
+# path = "src/macros_and_metaprogramming/function_like_procedural_macro.rs"
+
+[[bin]]
+name = "function_like_procedural_macro_invocation"
+path = "src/macros_and_metaprogramming/function_like_procedural_macro_invocation.rs"
+
+[dependencies]
+proc_macro_examples = { path = "src/macros_and_metaprogramming/proc_macro_examples" }
