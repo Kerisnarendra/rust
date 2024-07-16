@@ -1,1 +1,0 @@
-/home/keris/rust/rust-lo/src/macros_and_metaprogramming/proc_macro_examples/target/debug/libproc_macro_examples.so: /home/keris/rust/rust-lo/src/macros_and_metaprogramming/proc_macro_examples/src/lib.rs
