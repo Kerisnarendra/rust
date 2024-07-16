@@ -1,7 +1,8 @@
 extern crate proc_macro;
-use proc_macro::TokenStream;
+use proc_macro::make_answer;
 
-#[proc_macro]
-pub fn make_answer(_item: TokenStream) -> TokenStream {
-    "fn answer() -> u32 { 42 }".parse().unwrap()
+make_answer!();
+
+fn main() {
+    println!("{}", answer());
 }

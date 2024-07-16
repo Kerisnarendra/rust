@@ -81,13 +81,9 @@ path = "src/macros_and_metaprogramming/parameterized_declarative_macro.rs"
 name = "function_macro"
 path = "src/macros_and_metaprogramming/function_macro.rs"
 
-# [lib]
-# proc-macro = true
-# path = "src/macros_and_metaprogramming/function_like_procedural_macro.rs"
-
 [[bin]]
-name = "function_like_procedural_macro_invocation"
-path = "src/macros_and_metaprogramming/function_like_procedural_macro_invocation.rs"
+name = "function_like_procedural_macro"
+path = "src/macros_and_metaprogramming/function_like_procedural_macro.rs"
 
 [dependencies]
-proc_macro_examples = { path = "src/macros_and_metaprogramming/proc_macro_examples" }
+proc_macro = { path = "src/macros_and_metaprogramming/proc_macro" }
