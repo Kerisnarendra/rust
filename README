@@ -28,3 +28,8 @@ cargo run --bin expression_macro
 cargo run --bin function_like_procedural_macro
 cargo run --bin derive_macro
 cargo run --bin attribute_macro
+cargo run --bin dsl
+
+cargo run --bin println
+cargo run --bin pretty_printing
+cargo run --bin gdb_debugging

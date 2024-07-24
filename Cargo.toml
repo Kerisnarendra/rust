@@ -95,3 +95,19 @@ path = "src/macros_and_metaprogramming/derive_macro.rs"
 [[bin]]
 name = "attribute_macro"
 path = "src/macros_and_metaprogramming/attribute_macro.rs"
+
+[[bin]]
+name = "dsl"
+path = "src/macros_and_metaprogramming/domain_specific_languages.rs"
+
+[[bin]]
+name = "println"
+path = "src/debugging/println.rs"
+
+[[bin]]
+name = "pretty_printing"
+path = "src/debugging/pretty_printing.rs"
+
+[[bin]]
+name = "gdb_debugging"
+path = "src/debugging/gdb_debugging.rs"

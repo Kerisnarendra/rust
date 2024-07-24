@@ -1,2 +1,4 @@
 /target
+.debug/
+.vscode
 /src/macros_and_metaprogramming/proc_macro_examples/target
